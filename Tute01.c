@@ -5,6 +5,19 @@
 #include <stdio.h>
 
 int main() {
+
+  int m1,m2;
+  float avg = 0;
+
+  printf("Enter Mark 1: ");
+  scanf("%d",&m1);
+
+  printf("Enter Mark 2: ");
+  scanf("%d",&m2);
+
+  avg = (m1 + m2) / 2;
+
+  printf("Average = %.2f\n", avg);
   
   return 0;
 }
